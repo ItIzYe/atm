@@ -21,11 +21,15 @@ def admin():
         print("§Angemeldet als:\n")
         print(f"Name: {data['user'][admin_auth]['name']}")
         print(f"Status: {data['user'][admin_auth]['status']}\n")
-        a = input("OPTIONEN:\n1] User ansehen")
+        a = input("OPTIONEN:\n1] User ansehen\n2]Menü\n")
         if a == "1":
             file = open("debug.json", "r")
             data = json.load(file)
             print(data["user"])
+        if a == "2":
+            menue()
+
+
 
 
 def decrypt_user(key):
