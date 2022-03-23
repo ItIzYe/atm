@@ -1,5 +1,5 @@
-# atm
+#ATM Console 
 
-VERSION BETA 0.1
+##NOTIFICATION
 
-This is my ATM Project, which im now working on for 2 Months. Its not much, but i only use it for self-eductational purposes
+This project will not get updates anymore. I used it to mark the basics for <a href="https://github.com/ItIzYe/WebApp">WebApp</a>
